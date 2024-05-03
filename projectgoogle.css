@@ -1,0 +1,49 @@
+.logo {
+    text-align: center;
+    margin-top: -5%;
+    -ms-transform: scale(0.7,0.7); /* IE 9 */
+    -webkit-transform: scale(0.7,0.7); /* Safari */
+    transform: scale(0.7,0.7);
+}
+
+.searchingg {
+    display: flex; /* Flexbox'u kullan */
+    flex-direction: column; /* İçeriği dikey olarak sıralar */
+    align-items: center; /* İçeriği dikey olarak ortalar */
+    justify-content: center; /* İçeriği yatay olarak ortalar */
+}
+
+#searching {
+    width: 500px; /* Genişlik */
+    padding: 10px; /* İç boşluk */
+    margin-bottom: -20px;
+    border: 1px solid #ccc; /* Kenarlık */
+    border-radius: 20px; /* Bombeli köşeler */
+    font-size: 16px; /* Yazı boyutu */
+}
+
+#searching:hover, #searching:focus {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Gölgeli efekt */
+}
+
+#ara {
+    width: 150px; /* Genişlik */
+    padding: 7px 8px; /* İç boşluk (yukarı-aşağı, sağ-sol) */
+    border: 2px solid #ccc; /* Kenarlık */
+    font-size: 12px; /* Yazı boyutu */
+    font-weight: bold; /* Kalın font */
+}
+
+#ara:hover, #ara:focus {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Gölgeli efekt */
+}
+
+.button-container input[type="submit"] {
+    margin: 0 5px; /* Butonlar arasında 5 piksel boşluk */
+}
+
+.imgbutton {
+    position: fixed; /* Elementin sabit bir konumda olmasını sağlar */
+    top: 20px; /* Yukarıdan 20 piksel mesafede olacak şekilde */
+    right: 30px; /* Sağdan 20 piksel mesafede olacak şekilde */
+}
