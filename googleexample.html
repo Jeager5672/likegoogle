@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,23 +8,23 @@
 </head>
 <body>
     <div class="logo">
-        <img src="Remove-bg.ai_1708437756203.png" alt="logoo">
+        <img src="Remove-bg.ai_1708437756203.png" alt="logo">
     </div>
-    <form class="searchingg" action="arama-sonucu.php" method="GET">
-        <input type="text" name="searching" id="searching">
+    <form class="searchingg" action="https://www.google.com.tr/search" method="GET">
+        <input type="text" name="q" id="searching">
         <br><br><br>
         <div class="button-container">
             <input type="submit" value="Search" id="ara">
-            <input type="submit" value="I Feel Lucky" id="ara">
+            <input type="submit" value="I'm feeling lucky" name="btnI" id="ara">
         </div>
-
-        <div class="imgbutton">
-
-            <a href="googleexample.html">Search Image</a>
-
-        </div>
+    
+    
+        <form method="get" action="http://images.google.com/images">
+            <input type="hidden" name="tbm" value="isch">
+            <input type="submit" value="Image Search" class="imgbutton" >
+        </form>
 
     </form>
-    
+
 </body>
 </html>
